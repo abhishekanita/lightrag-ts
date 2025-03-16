@@ -17,13 +17,13 @@ const main = async () => {
 		// const book = fs.readFileSync('./book.txt', 'utf8');
 		// console.log('book fetched');
 		// await lightrag.insertDoc(book);
-		console.log('hey');
-		lightrag.query(
-			'Tell me about Scrooge',
-			new QueryParam({
-				mode: 'local',
-			}),
-		);
+		// console.log('hey');
+		// lightrag.query(
+		// 	'Tell me about Scrooge',
+		// 	new QueryParam({
+		// 		mode: 'local',
+		// 	}),
+		// );
 	} catch (err) {
 		console.log(err);
 	}
